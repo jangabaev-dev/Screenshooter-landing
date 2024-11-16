@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  // overflow-x: hidden;
 }
 :root {
   --purple-color: rgba(116, 33, 176, 1);
@@ -18,7 +18,8 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .container {
-    width: 90%;
+    width: 80%;
   }
 }
 @import "header";
+// @import "_about";
